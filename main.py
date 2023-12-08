@@ -1,7 +1,6 @@
 from dab_tester import DabTester
 from dab_tester import Default_Validations
 from dab_tester import to_test_id
-from test_suites import settings_suite
 import config
 import dab.app_telemetry
 import dab.device
@@ -26,8 +25,7 @@ ALL_SUITES = {
     "end_to_end_cobalt": end_to_end_cobalt.END_TO_END_TEST_CASE,
     "voice_audio": voice_audio.SEND_VOICE_AUDIO_TEST_CASES,
     "voice_text": voice_text.SEND_VOICE_TEXT_TEST_CASES,
-    "output_image": output_image.OUTPUT_IMAGE_TEST_CASES,
-    "settings_all": settings_suite.SEND_SETTING_ALL_TEST_CASES
+    "output_image": output_image.OUTPUT_IMAGE_TEST_CASES
 }
 
 if __name__ == "__main__":
