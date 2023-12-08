@@ -2,8 +2,8 @@ import dab.applications
 import dab.system
 import dab.device
 
-# Voice action steps
-SEND_SETTING_TEST_CASES = [
+# Settings action steps
+SEND_SETTING_ALL_TEST_CASES = [
     ("device/info",'{}', dab.device.info, 500, "Conformance"),
     ("system/settings/list",'{}', dab.system.list, 500, "Conformance"),
     ("system/settings/get",'{}', dab.system.get, 500, "Conformance"),
